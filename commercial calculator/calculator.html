@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commericail Calculator</title>
+</head>
+<body>
+    <form action="" method="POST" name="text_view" id="container"> 
+        <input type="text" name="values" id="num" onkeydown="AddByKeyboard(e)" readonly>
+        <div id="firstRow" class="rows">
+            <div>
+        <input type="button" name="btn7" value="7" onclick="AddByClick(7)" id="btn7">
+        <input type="button" name="btn8" value="8" onclick="AddByClick(8)" id="btn8">
+        <input type="button" name="btn9" value="9" onclick="AddByClick(9)" id="btn9">
+    </div>
+        <input type="button" name="btn" class="right" value="-" onclick="AddByClick('-')" id="btnminus">
+        </div>
+        <div id="secondRow" class="rows">
+         <div>
+        <input type="button" name="btn4" value="4" onclick="AddByClick(4)" id="btn4">
+        <input type="button" name="btn5" value="5" onclick="AddByClick(5)" id="btn5">
+        <input type="button" name="btn6" value="6" onclick="AddByClick(6)" id="btn6">
+    </div>
+        <input type="button" name="btn" class="right" value="+" onclick="AddByClick('+')" id="btnplus">
+        </div>
+        <div id="thirdRow"  class="fix" class="rows">
+        <input type="button" name="btn1" value="1" onclick="AddByClick(1)" id="btn1">
+        <input type="button" name="btn2" value="2" onclick="AddByClick(2)" id="btn2">
+        <input type="button" name="btn3" value="3" onclick="AddByClick(3)" id="btn3">
+        
+        </div>
+        <div id="forthRow" class="rows">
+            <div class="fix">
+        <input type="button" name="btnzero" value="0" onclick="AddByClick(0)" id="btnzero">
+        <input type="button" name="btnzeros" value="00" onclick="AddByClick('00')" id="btnzeros">
+        <input type="button" name="btndot" value="." onclick="AddByClick('.')" id="btndot">
+    </div>
+        <input type="submit" class="right" name="btn" value="="  id="submit">
+        </div>
+        
+    </form>
+    
+    <script src="ajax.js"></script>
+</body>
+</html>

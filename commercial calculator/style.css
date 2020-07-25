@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#container{
+    position: absolute;
+    top: 30%;
+    padding: 8vh;
+   
+}
+#num{
+    position: relative;
+    left: 2.5vh;
+    width: 20vh;
+}
+#firstRow{
+    display: flex;
+    margin: 2vh;
+    font-size: 3vh;
+}
+#secondRow{
+    display: flex;
+    margin: 2vh;
+}
+#thirdRow{
+    display: flex;
+    margin: 2vh;
+}
+#forthRow{
+    display: flex;
+    margin: 2vh;
+}
+#firstRow input{
+    margin: auto;
+    padding: 1vh;
+    width: 5vh;
+}
+#secondRow input{
+    margin: auto;
+    padding: 1vh;
+    width: 5vh;
+}
+#thirdRow input{
+    margin: 0.2vh;
+    padding: 1vh;
+    width: 5vh;
+}
+#forthRow input{
+    margin: 0.2vh;
+    padding: 1vh;
+    width: 5vh;
+}
+#btnplus{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    width: 3vh;
+    position: relative;
+    top: -1vh;
+    text-align: center;
+}
+#btnminus{
+position: relative;
+
+top: -0.1vh;
+}
+#submit{
+    position: relative;
+    top: -8.6vh;
+    left: 0.5vh;
+    height: 5.5vh;
+}
+.right{
+    position: relative;
+    left: 1vh;
+    
+}
+.fix {
+    position: relative;
+    top: -7.7vh;
+}
